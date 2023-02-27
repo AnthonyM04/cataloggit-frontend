@@ -1,0 +1,24 @@
+.allheader{ /* affects everything in the header */
+    background-color: var(--header-color);
+    color: var(--font-color);
+    border-bottom: 2px solid var(--border-color);
+    display: flex;
+}
+
+.name{ /*affects only the name [cataloggit]*/
+    font-size: 35px;
+    font-family: Helvetica;
+    margin-top: 10px;
+    align-self: right;
+}
+
+.signinbutton{ /*affects only the signin button*/
+    block-size: 25px;
+    margin-top: 10px;
+    align-content: inherit;
+
+}
+
+.signinbutton :hover {
+    color: var(--font-color)
+}

@@ -1,0 +1,11 @@
+.footer{
+    font-family: Helvetica;
+    size: 100px;
+    width: 100%;
+    bottom: 0;
+    color: var(--font-color);
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    background-color: var(--header-color);
+    position: fixed;
+}
